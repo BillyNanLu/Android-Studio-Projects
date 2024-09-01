@@ -1,0 +1,23 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">FarmProduce</string>
+
+    <string name="title">农产品订购，每份20元</string>
+    <string name="name">姓名</string>
+    <string name="packings">包装</string>
+    <string name="box">纸盒（1.0元）</string>
+    <string name="bag">纸袋（0.5元）</string>
+    <string name="quantity">数量</string>
+    <string name="initial_quantity_value">1</string>
+    <string name="order_summary">订单详情：</string>
+    <string name="initial_price">20元</string>
+    <string name="order">订购</string>
+    <string name="less_than_1">购买数量不能少于1！</string>
+    <string name="more_than_100">购买数量不能超过100！</string>
+    <string name="thank_you">谢谢光临！祝您生活愉快！</string>
+    <string name="order_summary_name">姓名：<xliff:g example="Lily" id="name">%s</xliff:g></string>
+    <string name="order_summary_box">需要纸盒？<xliff:g id="addBox" example="true">%b</xliff:g></string>
+    <string name="order_summary_bag">需要纸袋？<xliff:g id="addBag" example="true">%b</xliff:g></string>
+    <string name="order_summary_quantity">份数：<xliff:g id="quantity" example="1">%d</xliff:g></string>
+    <string name="order_summary_price">总价：<xliff:g id="price" example="20元">%s</xliff:g></string>
+    <string name="order_summary_email_subject">农产品订单：<xliff:g id="name" example="Lily">%s</xliff:g></string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Productos agrícolas</string>
+
+    <string name="title">Productos agrícolas Encargar，20 yuan cada</string>
+    <string name="less_than_1">No puedes tener menos que un productos!</string>
+    <string name="more_than_100">No puedes tener más de 100 productos!</string>
+    <string name="name">Nombre</string>
+    <string name="packings">Embalajings</string>
+    <string name="box">Caja</string>
+    <string name="bag">Bolsa</string>
+    <string name="quantity">Cantidad</string>
+    <string name="initial_quantity_value">1</string>
+    <string name="order_summary">Resumen de Pedidos:</string>
+    <string name="initial_price">20 yuan</string>
+    <string name="order">Ordenar</string>
+    <string name="order_summary_name">Nombre: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="order_summary_box">Agregue la crema batida? <xliff:g id="needBox" example="true">%b</xliff:g></string>
+    <string name="order_summary_bag">Agregue el chocolate? <xliff:g id="needBag" example="true">%b</xliff:g></string>
+    <string name="order_summary_quantity">Cantidad: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_price">Total: <xliff:g id="price" example="10 yuan">%s</xliff:g></string>
+    <string name="thank_you">Gracias!</string>
+    <string name="order_summary_email_subject">Productos agrícolas para <xliff:g id="name" example="Amy">%s</xliff:g></string>
+</resources>
