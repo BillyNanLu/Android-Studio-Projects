@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Native Culture</string>
+
+    <string name="category_self">Self-introduction/自我介绍</string>
+
+    <string name="category_scenic">Scenic/景点</string>
+
+    <string name="category_food">Food/美食</string>
+
+    <string name="category_provincialism">Provincialism/方言</string>
+
+    <string name="category_culture">Culture/传统文化</string>
+</resources>

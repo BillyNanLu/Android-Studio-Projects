@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF99FF"
+    tools:context=".SelfActivity">
+
+    <ImageView
+        android:id="@+id/touxiang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/touxiang" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle1"
+        android:text="姓名：陆楠" />
+
+    <TextView
+        android:id="@+id/uclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle1"
+        android:text="班级：软件（高本贯通）211" />
+
+    <TextView
+        android:id="@+id/unumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle1"
+        android:text="学号：344121138" />
+
+    <TextView
+        android:id="@+id/ufun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle1"
+        android:text="爱好: 听歌、电影、看书、旅行、麻将、代码" />
+</LinearLayout>

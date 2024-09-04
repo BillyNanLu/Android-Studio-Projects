@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/self"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:background="@color/category_self"
+        android:text="Self-introduction/自我介绍" />
+
+    <TextView
+        android:id="@+id/scenic"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:background="@color/category_scenic"
+        android:text="Scenic/景点" />
+
+    <TextView
+        android:id="@+id/food"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:background="@color/category_food"
+        android:text="Food/美食" />
+
+    <TextView
+        android:id="@+id/culture"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:background="@color/category_culture"
+        android:text="Culture/传统文化" />
+
+    <ImageView
+        android:id="@+id/shanghai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:src="@drawable/shanghai" />
+
+</LinearLayout>
